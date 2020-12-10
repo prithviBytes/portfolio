@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Prithviraj Suvarna</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" href="./LOGO/Logo Purple dark.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    </head>
+    <script>
+        function uncheck(){
+          document.getElementById("navi-toggle").checked = false;
+          console.log("Clicked")
+        }
+    </script>
+    <body>
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+            <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a onclick="uncheck()" href="#section-bio" class="navigation__link"><span>01</span>About Me</a></li>
+                    <li class="navigation__item"><a onclick="uncheck()" href="#section-technology" class="navigation__link"><span>02</span>My Skills</a></li>
+                    <li class="navigation__item"><a onclick="uncheck()" href="projects.html" class="navigation__link"><span>03</span>My Projects</a></li>
+                    <li class="navigation__item"><a onclick="uncheck()" href="blog.html" class="navigation__link"><span>04</span>My Blogs</a></li>
+                    <li class="navigation__item"><a onclick="uncheck()" href="#section-contact" class="navigation__link"><span>05</span>Contact</a></li>
+                    <li class="navigation__item"><a onclick="uncheck()" href="#section-social" class="navigation__link"><span>06</span>Social Media</a></li>
+                    </ul>
+            </nav>
+        </div>
+          <div class="header">
+              <div class="header__logo-box">
+                <a href="#">
+                    <img id="logo"src="./LOGO/Logo Purple dark.png">
+                </a>
+              </div>
+          </div>
+          <section class="hero has-text-centered">
+            <div class="hero-body">
+              <div class="container">
+                <h1 class="title is-uppercase is-size-1-desktop is-size-2-tablet has-text-weight-bold mb-5">
+                  Full stack Developer
+                </h1>
+                <h2 class="subtitle mt-2">
+                  I Design & Code Beautiful Websites, and I love what I do.
+                </h2>
+                <figure>
+                    <img src="Vectors/Final working.svg">
+                </figure>
+              </div>
+            </div>
+          </section>
+          <section id="section-bio" class="section is-medium has-text-centered section-bio">
+            <div class="container">
+                <div class="column">
+                    <div class="column is-three-fifths is-offset-one-fifth">
+                        <h1 class="title is-spaced is-size-2-desktop is-size-5-mobile has-text-white">
+                            Welcome, I'm Prithviraj Suvarna
+                          </h1>
+                        <h2 class="subtitle is-size-5-desktop has-text-white is-size-6-mobile">
+                            I am an aspiring Web Developer. I have been building websites for a few months now. I can design, code and deploy websites. Learning and Upskilling myself day by day.
+                        </h2>
+                    </div>
+                </div>  
+            </div>
+          </section>
+          <section id="section-technology" class="section-technology mt-5">
+              <div class="container has-text-centered">
+                <h1 class="is-size-3-desktop is-size-3-tablet is-size-4-mobile has-text-weight-bold subheaders">
+                    My Tools
+                </h1>
+              </div>
+              <hr class="hr">
+              <div class="container mt-6">
+                <div class="columns" style="text-align: center;">
+                    <div class="column is-one-quarter">
+                        <figure  id="html" class="image">
+                            <i class="fab fa-html5 technology"></i>
+                        </figure>
+                        <h4 class="is-size-4 is-size-5-mobile has-text-weight-medium">HTML</h4>
+                    </div>
+                    <div class="column is-one-quarter">
+                        <figure id="css" class="image">
+                            <i class="fab fa-css3-alt technology"></i>
+                        </figure>
+                        <h4 class="is-size-4 is-size-5-mobile has-text-weight-medium">CSS</h4>
+                    </div>
+                    <div class="column is-one-quarter">
+                        <figure id="javascript" class="image">
+                            <i class="fab fa-js technology"></i>
+                        </figure>
+                        <h4 class="is-size-4 is-size-5-mobile has-text-weight-medium">JavaScript</h4>
+                    </div>
+                    <div class="column is-one-quarter">
+                        <figure id="react" class="image">
+                            <i class="fab fa-react technology"></i>
+                        </figure>
+                        <h4 class="is-size-4 is-size-5-mobile has-text-weight-medium">React</h4>
+                    </div>
+                </div>
+              </div>
+              <div class="container mt-6">
+                <div class="columns" style="text-align: center;">
+                    <div class="column is-one-quarter">
+                        <figure id="node" class="image">
+                            <i class="fab fa-node technology"></i>
+                        </figure>
+                        <h4 class="is-size-4 is-size-5-mobile has-text-weight-medium">Node.js</h4>
+                    </div>
+                    <div class="column is-one-quarter">
+                        <figure id="java" class="image">
+                            <i class="fab fa-java technology"></i>
+                        </figure>
+                        <h4 class="is-size-4 is-size-5-mobile has-text-weight-medium">Java</h4>
+                    </div>
+                    <div class="column is-one-quarter">
+                        <figure id="bootstrap" class="image">
+                            <i class="fab fa-bootstrap technology"></i>
+                        </figure>
+                        <h4 class="is-size-4 is-size-5-mobile has-text-weight-medium">Bootstrap</h4>
+                    </div>
+                    <div class="column is-one-quarter">
+                        <figure id="database" class="image">
+                            <i class="fas fa-database technology"></i>
+                        </figure>
+                        <h4 class="is-size-4 is-size-5-mobile has-text-weight-medium">MongoDB & MySQL</h4>
+                    </div>
+                </div>
+              </div>
+          </section>
+          <section class="section is-medium has-text-centered section-project">
+                <div class="container mb-6">
+                    <h1 class="title is-spaced is-size-2-desktop is-size-4-mobile has-text-white">
+                        My Recent Work
+                    </h1>
+                </div>
+                <div class="container mt-6">
+                    <div class="columns">
+                        <div class="column is-one-third mb-6 project mr-5">
+                            <figure>
+                                <img src="./myprojects/Yelpcamp.PNG" class="project-image">
+                                <figcaption class="project-link">
+                                    <h1 class="is-size-3 is-size-4-mobile has-text-weight-semibold mb-3">
+                                        YelpCamp
+                                    </h1>
+                                    <p class="mb-5">A Full Stack Camping Website.</p>
+                                    <a class="website-button" href="https://yealpcamps.herokuapp.com/campgrounds?">Visit Website</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="column is-one-third mb-6 project mr-5">
+                            <figure>
+                                <img src="./myprojects/sweet-chilly.PNG" class="project-image">
+                                <figcaption class="project-link-2">
+                                    <h1 class="is-size-3 is-size-4-mobile has-text-weight-semibold mb-3">
+                                        Sweet Chilly
+                                    </h1>
+                                    <p class="mb-5">A Movie Browsing Application.</p>
+                                    <a class="website-button" href="https://sweetchilly.herokuapp.com/">Visit Website</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="column is-one-third mb-6 project mr-5">
+                            <figure>
+                                <img src="./myprojects/Blog.PNG" class="project-image">
+                                <figcaption class="project-link-3">
+                                    <h1 class="is-size-3 is-size-4-mobile has-text-weight-semibold mb-3">
+                                       Blog Site
+                                    </h1>
+                                    <p class="mb-5">A Blogging Website.</p>
+                                    <a class="website-button" href="https://blog-sitee.herokuapp.com/">Visit Website</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="container has-text-right mt-6">
+                    <a class="link-button" href="projects.html">See All Projects &rarr;</a>
+                </div>
+          </section>
+          <section class="section section-blog is-medium">
+            <div class="container mb-6 has-text-centered">
+                <h1 class="is-spaced is-size-2-desktop is-size-4-mobile subheaders">
+                    My Blogs
+                </h1>
+            </div>
+            <div class="container mt-6">
+                <div class="columns">
+                    <div class="column is-one-third mb-6 project mr-5">
+                        <figure>
+                            <img src="./Blog/1.PNG" class="project-image">
+                            <figcaption class="project-link">
+                                <h1 class="is-size-3 is-size-4-mobile has-text-weight-semibold mb-3">
+                                    Intro To DOM
+                                </h1>
+                                <p class="mb-5">Document Object Model</p>
+                                <a class="website-button" href="https://prithvi.hashnode.dev/introduction-to-dom-document-object-model">Read Blog</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="column is-one-third mb-6 project mr-5">
+                        <figure>
+                            <img src="./Blog/2.PNG" class="project-image">
+                            <figcaption class="project-link-2">
+                                <h1 class="is-size-3 is-size-4-mobile has-text-weight-semibold mb-3">
+                                    React js
+                                </h1>
+                                <p class="mb-5">A Blog on Reactjs</p>
+                                <a class="website-button" href="https://blog-sitee.herokuapp.com/blogs/5fc340329819c30017efacac">Read Blog</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="column is-one-third mb-6 project mr-5">
+                        <figure>
+                            <img src="./Blog/3.PNG" class="project-image">
+                            <figcaption class="project-link-3">
+                                <h1 class="is-size-3 is-size-4-mobile has-text-weight-semibold mb-3">
+                                   Angurlar Js
+                                </h1>
+                                <p class="mb-5">Blog on Angular js.</p>
+                                <a class="website-button" href="https://blog-sitee.herokuapp.com/blogs/5fc340ec9819c30017efacad">Read Blog</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="container has-text-right mt-6">
+                <a class="blog-link" href="blog.html">See All Blogs &rarr;</a>
+            </div>
+          </section>
+          <section id="section-contact" class="section section-contact">
+              <div class="container">
+                <div class="contact">
+                    <div class="contact-form">
+                        <div class="container">
+                            <h1 class="subheaders is-spaced is-size-3">Contact Me!</h1>
+                        </div>
+                        <form action="https://formspree.io/f/mdoplzrv" method="POST" class="form" autocomplete="off">
+                            <div class="form__group mt-6">
+                                <input type="text" class="form__input" placeholder="Name" id="name" name="Name" required>
+                                <label for="name" class="form__label">Name</label>
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Email Id" id="email" name="Email" required>
+                                <label for="email" class="form__label">Email Id</label>
+                            </div>
+                            <div class="form__group">
+                                <textarea class="form__input" name="Description" placeholder="How Can I Help You?"></textarea>
+                            </div>
+                            <div class="form__group mt-5">
+                                <button class="contact-button">Contact Me</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+              </div>
+          </section>
+          <section class="section section-collab has-text-centered has-text-white">
+              <div class="container is-narrow">
+                <div class="collab">
+                    <div class="columns level">
+                        <div class="column level-item">
+                            <h1 class="is-size-4 has-text-weight-semibold">Let's Collaborate</h1>
+                        </div>
+                        <div class="column level-item">
+                            <p>Interested In working together? Lets Chat.</p>
+                        </div>
+                        <div class="column level-item">
+                            <a href="https://www.instagram.com/prithvi_suvarna_/" class="contact-button">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </section>
+          <section id="section-social" class="section section-footer is-long has-text-centered">
+            <div class="container is-narrow">
+                <a href="#">
+                    <img  id="footer-logo" src="./LOGO/logo footer.png" alt="MY LOGO">
+                </a>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-one-third has-text-white">
+                    <h1 class="is-size-4 footer-title">Prithviraj Suvarna</h1>
+                </div>
+            </div>
+            <div class="social-links mt-6">
+                <p>
+                    <a href="https://github.com/prithviBytes">
+                        <i class="fab fa-github social"></i>
+                    </a>
+                    <a href="https://twitter.com/___prithvi?s=09">
+                        <i class="fab fa-twitter social"></i>
+                    </a>
+                    <a href="https://www.facebook.com/prithvi.suvarna.33">
+                        <i class="fab fa-facebook-f social"></i>
+                    </a>
+                    <a href="https://www.instagram.com/prithvi_suvarna_/">
+                        <i class="fab fa-instagram social"></i>
+                    </a>
+                    <a href="https://t.me/prithviBytes">
+                        <i class="fab fa-telegram-plane social"></i>
+                    </a>
+                    <a href="mailto:someone@example.com">
+                        <i class="far fa-envelope social"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-discord social"></i>
+                    </a>
+                </p>
+            </div>
+            <div class="copyright mt-6 has-text-white is-size-5">Inspired By 
+                <a href="https://twitter.com/jonasschmedtman" class="my-name">Jonas Schmedtmann</a>
+                 &
+                 <a href="https://twitter.com/farleymatters" class="my-name">Matt Farley</a>
+                  <br>
+                Built by me © <span class="my-name">
+                    <a class="my-name"href="https://twitter.com/___prithvi?s=09">Prithvi Suvarna</a></span>
+            </div>
+          </section>
+          <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    </body>
+</html>
+
+
